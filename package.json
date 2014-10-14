@@ -1,0 +1,29 @@
+{
+  "name": "dependable-p",
+  "version": "0.1.0",
+  "description": "Use Promises in dependable.js",
+  "main": "src/dependable-p.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldegen/dependableP.git"
+  },
+  "keywords": [
+    "dependable",
+    "promise"
+  ],
+  "author": "Lukas Degener <l.degener@tarent.de>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ldegen/dependableP/issues"
+  },
+  "homepage": "https://github.com/ldegen/dependableP",
+  "dependencies": {
+    "promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "dependable": "^0.2.5"
+  }
+}
